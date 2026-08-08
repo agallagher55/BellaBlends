@@ -1,8 +1,13 @@
 const DATA_URL = "../data/products.json";
 
 function getProductIdFromUrl() {
-  const params = new URLSearchParams(window.location.search);
-  return Number(params.get("id"));
+  const queryId = new URLSearchParams(window.location.search).get("id");
+  if (queryId) {
+    return Number(queryId);
+  }
+
+  const pathMatch = window.location.pathname.match(/\/product\/(\d+)/);
+  return pathMatch ? Number(pathMatch[1]) : NaN;
 }
 
 function productDetailHtml(product) {

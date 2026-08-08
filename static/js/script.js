@@ -2,7 +2,7 @@ const DATA_URL = "../data/products.json";
 
 function productCardHtml(product) {
   return `
-    <a class="product-card" href="product-detail.html?id=${product.id}">
+    <a class="product-card" href="/product/${product.id}">
       <img src="${product.image}" alt="${product.name}" />
       <div class="product-card-body">
         <span class="product-category">${product.category}</span>

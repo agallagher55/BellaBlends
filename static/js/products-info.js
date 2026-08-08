@@ -17,7 +17,7 @@ function categoryCardHtml(category, count) {
       <h3 class="market-name">${category}</h3>
       <div class="market-meta">${count} treat${count === 1 ? "" : "s"}</div>
       <p class="market-description">${blurb}</p>
-      <a class="btn btn-outline" href="shop.html?category=${encodeURIComponent(category)}">
+      <a class="btn btn-outline" href="/shop?category=${encodeURIComponent(category)}">
         View ${category}
       </a>
     </div>
