@@ -1,0 +1,10 @@
+Bella Blends - TODO
+
+- [ ] Add cart page + add-to-cart flow
+- [ ] Add checkout page
+- [ ] Add backend (Flask or Express) to serve products and handle orders
+- [ ] Move product data from JSON file to a database (SQLite) once orders are added
+- [ ] Add product search
+- [ ] Add real product photography
+- [ ] Add about/contact page
+- [ ] Mobile nav (hamburger menu) for small screens

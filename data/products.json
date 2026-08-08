@@ -1,0 +1,62 @@
+[
+  {
+    "id": 1,
+    "name": "Peanut Butter Bites",
+    "category": "Baked Biscuits",
+    "price": 8.99,
+    "description": "Crunchy oven-baked biscuits made with natural peanut butter and whole wheat flour. No added sugar, no xylitol.",
+    "ingredients": ["Whole wheat flour", "Natural peanut butter", "Eggs", "Rolled oats"],
+    "image": "https://images.unsplash.com/photo-1583511655857-d19b40a7a54e?w=600",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "name": "Sweet Potato Chews",
+    "category": "Dehydrated Treats",
+    "price": 10.99,
+    "description": "Slow-dehydrated sweet potato slices. A single-ingredient, grain-free chew that's gentle on sensitive stomachs.",
+    "ingredients": ["Sweet potato"],
+    "image": "https://images.unsplash.com/photo-1601758228041-f3b2795255f1?w=600",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "name": "Bacon & Cheddar Crunch",
+    "category": "Baked Biscuits",
+    "price": 9.49,
+    "description": "A savory favorite packed with real bacon bits and sharp cheddar cheese, baked until crispy.",
+    "ingredients": ["Oat flour", "Bacon", "Cheddar cheese", "Eggs"],
+    "image": "https://images.unsplash.com/photo-1568640347023-a616a30bc3bd?w=600",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "name": "Blueberry Oat Softies",
+    "category": "Soft Chews",
+    "price": 11.99,
+    "description": "Soft, chewy training treats bursting with real blueberries and oats. Great for puppies and senior dogs.",
+    "ingredients": ["Oat flour", "Blueberries", "Coconut oil", "Eggs"],
+    "image": "https://images.unsplash.com/photo-1552053831-71594a27632d?w=600",
+    "featured": true
+  },
+  {
+    "id": 5,
+    "name": "Salmon Skin Strips",
+    "category": "Dehydrated Treats",
+    "price": 13.99,
+    "description": "Wild-caught salmon skin, slow-dried to lock in omega-3s for a shiny coat and healthy skin.",
+    "ingredients": ["Salmon skin"],
+    "image": "https://images.unsplash.com/photo-1615486364734-ea48a9b9e57e?w=600",
+    "featured": false
+  },
+  {
+    "id": 6,
+    "name": "Pumpkin Spice Puffs",
+    "category": "Baked Biscuits",
+    "price": 8.49,
+    "description": "Light, airy baked puffs made with real pumpkin puree and a dash of cinnamon. A seasonal fan favorite.",
+    "ingredients": ["Pumpkin puree", "Whole wheat flour", "Cinnamon", "Eggs"],
+    "image": "https://images.unsplash.com/photo-1509205477838-a534e43a849f?w=600",
+    "featured": false
+  }
+]
