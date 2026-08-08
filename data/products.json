@@ -37,6 +37,7 @@
     "description": "Soft, chewy training treats bursting with real blueberries and oats. Great for puppies and senior dogs.",
     "ingredients": ["Oat flour", "Blueberries", "Coconut oil", "Eggs"],
     "image": "https://images.unsplash.com/photo-1552053831-71594a27632d?w=600",
+    "imagePosition": "center 20%",
     "featured": true
   },
   {

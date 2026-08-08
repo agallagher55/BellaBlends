@@ -3,7 +3,11 @@ const DATA_URL = "../data/products.json";
 function productCardHtml(product) {
   return `
     <a class="product-card" href="/product/${product.id}">
-      <img src="${product.image}" alt="${product.name}" />
+      <img
+        src="${product.image}"
+        alt="${product.name}"
+        style="object-position: ${product.imagePosition || "center"};"
+      />
       <div class="product-card-body">
         <span class="product-category">${product.category}</span>
         <span class="product-name">${product.name}</span>
