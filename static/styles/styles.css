@@ -147,6 +147,7 @@ img {
   max-width: var(--max-width);
   margin: 0 auto;
   padding: 0 1.5rem 2.5rem;
+  text-align: center;
 }
 
 .featured-photo img {
@@ -155,6 +156,7 @@ img {
   object-fit: cover;
   border-radius: var(--radius);
   box-shadow: var(--shadow);
+  margin-bottom: 1.5rem;
 }
 
 .btn {
