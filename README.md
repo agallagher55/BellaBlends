@@ -54,6 +54,25 @@ Alternatively, `python3 -m http.server 8000` also works for plain static
 serving, but you'll need to use paths like
 `http://localhost:8000/html/index.html` directly.
 
+## Deploying (Render)
+
+This repo includes a `render.yaml` Blueprint for [Render](https://render.com):
+
+1. Push this repo to GitHub (already done if you're reading this on GitHub).
+2. In the Render dashboard, click **New +** → **Blueprint**.
+3. Connect your GitHub account/repo and select `BellaBlends`. Render will
+   detect `render.yaml` automatically.
+4. Confirm the plan (Free) and click **Apply** to create the service.
+
+No build step or dependencies are required — `render.yaml` just runs
+`python3 backend/server.py`, which already reads the `PORT` environment
+variable Render provides.
+
+Note: the free plan spins the service down after ~15 minutes of
+inactivity, so the first request after a lull can take 30-50 seconds to
+wake back up. Fine for sharing a low-traffic demo link, not ideal for a
+snappy live demo.
+
 ## Roadmap
 
 See `todo.txt` for planned features.

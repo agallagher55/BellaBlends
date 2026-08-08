@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: bella-blends
+    runtime: python
+    plan: free
+    buildCommand: ""
+    startCommand: python3 backend/server.py
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.0
