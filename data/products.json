@@ -40,16 +40,6 @@
     "featured": true
   },
   {
-    "id": 5,
-    "name": "Salmon Skin Strips",
-    "category": "Dehydrated Treats",
-    "price": 13.99,
-    "description": "Wild-caught salmon skin, slow-dried to lock in omega-3s for a shiny coat and healthy skin.",
-    "ingredients": ["Salmon skin"],
-    "image": "https://images.unsplash.com/photo-1615486364734-ea48a9b9e57e?w=600",
-    "featured": false
-  },
-  {
     "id": 6,
     "name": "Pumpkin Spice Puffs",
     "category": "Baked Biscuits",
