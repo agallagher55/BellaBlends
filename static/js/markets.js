@@ -16,7 +16,7 @@ function marketCardHtml(market) {
       <div class="market-date">${formatDate(market.date)}</div>
       <h3 class="market-name">${market.name}</h3>
       <div class="market-meta">${market.time}</div>
-      <div class="market-meta">${market.location} &mdash; ${market.address}</div>
+      <div class="market-meta">${market.location} - ${market.address}</div>
       <p class="market-description">${market.description}</p>
     </div>
   `;
@@ -33,7 +33,7 @@ async function loadMarkets() {
 
     list.innerHTML = upcoming.length
       ? upcoming.map(marketCardHtml).join("")
-      : `<p class="empty-state">No upcoming markets right now &mdash; check back soon!</p>`;
+      : `<p class="empty-state">No upcoming markets right now - check back soon!</p>`;
   } catch (error) {
     list.innerHTML = `<p class="error-state">Couldn't load markets right now.</p>`;
   }

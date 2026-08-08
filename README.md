@@ -64,7 +64,7 @@ This repo includes a `render.yaml` Blueprint for [Render](https://render.com):
    detect `render.yaml` automatically.
 4. Confirm the plan (Free) and click **Apply** to create the service.
 
-No build step or dependencies are required — `render.yaml` just runs
+No build step or dependencies are required - `render.yaml` just runs
 `python3 backend/server.py`, which already reads the `PORT` environment
 variable Render provides.
 

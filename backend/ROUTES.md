@@ -17,7 +17,7 @@ directly by its file path too.
 
 ## Notes
 
-- The server is read-only — there are no POST routes yet. Ordering/cart
+- The server is read-only - there are no POST routes yet. Ordering/cart
   endpoints will be documented here once added (see `todo.txt`).
 - `/product/<id>` validates the ID against `data/products.json` before
   serving the page; the client-side JS (`static/js/product-detail.js`)
