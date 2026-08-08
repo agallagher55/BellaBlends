@@ -5,6 +5,7 @@ Bella Blends - TODO
 - [ ] Add order handling to the backend (currently static file serving only)
 - [ ] Move product data from JSON file to a database (SQLite) once orders are added
 - [ ] Add product search
-- [ ] Add real product photography
-- [ ] Add about/contact page
-- [ ] Mobile nav (hamburger menu) for small screens
+- [ ] Add real product photography (product cards still use Unsplash placeholders)
+- [x] Add about page
+- [x] Mobile nav (hamburger menu) for small screens
+- [ ] Add contact form/info to About page (currently just story/values)
