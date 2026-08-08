@@ -80,6 +80,46 @@ img {
   color: var(--color-primary);
 }
 
+.nav-toggle {
+  display: none;
+  background: none;
+  border: none;
+  padding: 0.25rem;
+  font-size: 1.6rem;
+  line-height: 1;
+  color: var(--color-primary-dark);
+  cursor: pointer;
+}
+
+@media (max-width: 700px) {
+  .nav-toggle {
+    display: block;
+  }
+
+  .site-header .nav-wrap {
+    flex-wrap: wrap;
+  }
+
+  .main-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 0;
+    order: 1;
+    border-top: 1px solid var(--color-border);
+    margin-top: 1rem;
+  }
+
+  .main-nav.open {
+    display: flex;
+  }
+
+  .main-nav a {
+    padding: 0.85rem 0.25rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+}
+
 /* Hero */
 
 .hero {
@@ -388,5 +428,26 @@ img {
   .hero,
   .product-detail {
     grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 2rem 1.25rem;
+  }
+
+  .hero h1 {
+    font-size: 1.9rem;
+  }
+
+  .section,
+  .story-section {
+    padding: 2rem 1.25rem;
+  }
+
+  .section-title {
+    font-size: 1.35rem;
+  }
+
+  .photo-gallery img {
+    height: 180px;
   }
 }
