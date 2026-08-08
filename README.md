@@ -12,15 +12,19 @@ backend/
   start-server.bat        double-click launcher (Windows)
 data/
   products.json          product catalog
+  markets.json            upcoming markets/pop-up events
 html/
   index.html              home page with featured treats
   shop.html                full catalog with category filters
   product-detail.html      single product view
+  markets.html             upcoming markets
 static/
+  images/                 product/site photos
   js/
     script.js               home page logic
     shop.js                  shop/catalog logic
     product-detail.js        product detail logic
+    markets.js               markets page logic
   styles/
     styles.css               shared styles
 ```
@@ -39,8 +43,9 @@ python3 backend/server.py
 
 Or on Windows, double-click `backend/start-server.bat`.
 
-Then visit `http://localhost:8000/`. `/shop` and `/product/<id>` also
-work as friendly URLs.
+Then visit `http://localhost:8000/`. `/shop`, `/product/<id>`, and
+`/markets` also work as friendly URLs. See `backend/ROUTES.md` for the
+full list.
 
 Alternatively, `python3 -m http.server 8000` also works for plain static
 serving, but you'll need to use paths like

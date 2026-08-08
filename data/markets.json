@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1,
+    "name": "Riverside Farmers Market",
+    "date": "2026-08-16",
+    "time": "9:00 AM - 1:00 PM",
+    "location": "Riverside Park Pavilion",
+    "address": "120 Riverside Dr, Springfield",
+    "description": "Come find our table near the north entrance for fresh-baked treats and samples for your pup."
+  },
+  {
+    "id": 2,
+    "name": "Downtown Makers Fair",
+    "date": "2026-08-23",
+    "time": "10:00 AM - 4:00 PM",
+    "location": "Town Square",
+    "address": "5 Main St, Springfield",
+    "description": "A full day of local vendors. We'll have our full lineup plus a few new seasonal flavors."
+  },
+  {
+    "id": 3,
+    "name": "Pups in the Park",
+    "date": "2026-09-06",
+    "time": "11:00 AM - 3:00 PM",
+    "location": "Maple Grove Dog Park",
+    "address": "800 Maple Grove Rd, Springfield",
+    "description": "A dog-friendly event with vendors, adoption groups, and activities. Bring your best friend!"
+  }
+]

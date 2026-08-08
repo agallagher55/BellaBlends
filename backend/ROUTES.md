@@ -10,6 +10,7 @@ directly by its file path too.
 | GET    | `/`               | Home page (`html/index.html`)                                                 |
 | GET    | `/shop`           | Product catalog with category filters (`html/shop.html`)                     |
 | GET    | `/product/<id>`   | Single product view (`html/product-detail.html`). 404s if `<id>` doesn't exist in `data/products.json` |
+| GET    | `/markets`        | Upcoming markets/pop-up events (`html/markets.html`)                          |
 | GET    | `/products.json`  | Product catalog data, served with `Cache-Control: no-store, no-cache, must-revalidate` |
 
 ## Notes

@@ -2,8 +2,8 @@
 """Static file server for the Bella Blends storefront.
 
 Serves the same files `python3 -m http.server` would, plus friendly
-routes for the shop and product detail pages and a no-cache endpoint
-for products.json.
+routes for the shop, markets, and product detail pages and a no-cache
+endpoint for products.json.
 """
 
 import json
@@ -28,6 +28,9 @@ class StoreHandler(http.server.SimpleHTTPRequestHandler):
             return super().do_GET()
         if path == '/shop':
             self.path = '/html/shop.html'
+            return super().do_GET()
+        if path == '/markets':
+            self.path = '/html/markets.html'
             return super().do_GET()
         if path == '/products.json':
             return self.serve_products_json()

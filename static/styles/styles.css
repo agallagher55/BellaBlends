@@ -277,6 +277,52 @@ img {
   padding: 2rem;
 }
 
+/* Markets */
+
+.section-intro {
+  color: var(--color-text-muted);
+  margin-top: -0.75rem;
+  margin-bottom: 1.5rem;
+  max-width: 60ch;
+}
+
+.market-list {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.market-card {
+  background: var(--color-surface);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius);
+  box-shadow: var(--shadow);
+  padding: 1.25rem 1.5rem;
+}
+
+.market-date {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-accent);
+  font-weight: 700;
+  margin-bottom: 0.3rem;
+}
+
+.market-name {
+  margin: 0 0 0.3rem;
+  font-size: 1.2rem;
+  color: var(--color-primary-dark);
+}
+
+.market-meta {
+  color: var(--color-text-muted);
+  font-size: 0.95rem;
+}
+
+.market-description {
+  margin-top: 0.6rem;
+}
+
 /* Footer */
 
 .site-footer {
