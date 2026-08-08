@@ -1,4 +1,4 @@
-Bella Blends - TODO
+Bella's Blend - TODO
 
 - [ ] Add cart page + add-to-cart flow
 - [ ] Add checkout page

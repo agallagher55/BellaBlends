@@ -1,4 +1,4 @@
-# Bella Blends
+# Bella's Blend
 
 A website for a handmade dog treats storefront: browse a product catalog
 and view details for each treat. Product data is served from a local JSON

@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Static file server for the Bella Blends storefront.
+"""Static file server for the Bella's Blend storefront.
 
 Serves the same files `python3 -m http.server` would, plus friendly
 routes for the shop, markets, and product detail pages and a no-cache
