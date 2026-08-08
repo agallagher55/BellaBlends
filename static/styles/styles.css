@@ -321,6 +321,12 @@ img {
 
 .market-description {
   margin-top: 0.6rem;
+  margin-bottom: 0.9rem;
+}
+
+.market-card .btn {
+  font-size: 0.9rem;
+  padding: 0.5rem 1.1rem;
 }
 
 /* Footer */

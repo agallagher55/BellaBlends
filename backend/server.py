@@ -32,6 +32,12 @@ class StoreHandler(http.server.SimpleHTTPRequestHandler):
         if path == '/markets':
             self.path = '/html/markets.html'
             return super().do_GET()
+        if path == '/products':
+            self.path = '/html/products.html'
+            return super().do_GET()
+        if path == '/about':
+            self.path = '/html/about.html'
+            return super().do_GET()
         if path == '/products.json':
             return self.serve_products_json()
         if path.startswith('/product/'):

@@ -1,7 +1,8 @@
 const DATA_URL = "../data/products.json";
 
 let allProducts = [];
-let activeCategory = "All";
+let activeCategory =
+  new URLSearchParams(window.location.search).get("category") || "All";
 
 function productCardHtml(product) {
   return `
